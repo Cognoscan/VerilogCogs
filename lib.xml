@@ -1,0 +1,23 @@
+<library>
+  <category name="Output Modules">
+    <module file="sdDac.v" name="1st Order Sigma Delta Output">
+      <description>1st Order Sigma-Delta Modulator. Useful for outputting analog signals with one pin.</description>
+    </module>
+    <module file="sigmaDelta2ndOrder.v" name="2nd Order Sigma Delta Output">
+      <description>2nd Order Sigma-Delta Modulator. Better noise performance, but higher complexity than 1st order.</description>
+    </module>
+    <module file="servo" name="Hobby Servo Drivers">
+      <description>Drives any number of hobby servos with PWM signals.</description>
+    </module>
+  </category>
+  <category name="Signal Generators">
+    <module file="oscillator.v" name="Simple Sinusoidal Oscillator">
+      <description>Generates two sine waves 90 degrees apart. Small, fixed in frequency, and can't be full-scale.</description>
+    </module>
+  </category>
+  <category name="Input Modules">
+    <module file="sinc3Filter.v" name="One Bit Sinc^3 Filter">
+      <description>A sinc^3 filter for a sigma-delta modulated input. Useful for 2-pin sigma-delta ADCs.</description>
+    </module>
+  </category>
+</library>
