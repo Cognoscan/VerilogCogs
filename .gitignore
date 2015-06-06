@@ -1,5 +1,6 @@
 modelsim.ini
 work/
-
+transcript
+vsim.wlf
 *.swp
 

@@ -20,4 +20,9 @@
       <description>A sinc^3 filter for a sigma-delta modulated input. Useful for 2-pin sigma-delta ADCs.</description>
     </module>
   </category>
+  <category name="Filters">
+    <module file="iirLowPassSinglePole.v" name="Single-Pole Low Pass IIR Filter">
+      <description>Simple, efficient low-pass filter, for when an exact cutoff frequency isn't important.</description>
+    </module>
+  </category>
 </library>

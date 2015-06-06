@@ -26,11 +26,12 @@ To add these as components to Mojo IDE:
   order, but has better noise shaping.
 - sinc3Filter.v - A sinc^3 filter. Use it to filter and decimate an input from a 
   2nd Order analog sigma-delta modulator.
+- iirLowPassSinglePole.v - An always stable, efficient low-pass filter. Only 
+  allows certain cut-off frequencies.
 
 ## Planned Modules
 
 - Symmetric FIR filter
-- Stable IIR filters
 - Sine Wave Lookup table
 - Triangle & sawtooth wave generators
 - Explanation of how to make the analog portion of the sigma-delta modulators.
